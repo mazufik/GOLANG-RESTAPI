@@ -1,0 +1,13 @@
+{
+  "server": {
+    "appName": "Nama Aplikasi",
+    "appPort": "Port aplikasi"
+  },
+  "database": {
+    "host": "Hostname",
+    "port": "Port database",
+    "dbname": "Nama database",
+    "username": "username",
+    "password": "password"
+  }
+}

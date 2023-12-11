@@ -1,0 +1,34 @@
+@baseUrl = http://localhost:8080/api/v1/item
+
+### Get All
+GET {{baseUrl}}/get_all
+
+### Create Item
+POST {{baseUrl}}/create
+Content-Type: application/json
+
+{
+    "nama_item": "Buah Semangka",
+    "unit": "kg",
+    "stok": 90,
+    "harga_satuan": 15000
+}
+
+### Update Item
+PUT {{baseUrl}}/update/1
+Content-Type: application/json
+
+{
+    "nama_item": "Beras Pulen",
+    "unit": "kg",
+    "stok": 120,
+    "harga_satuan": 12000
+}
+
+### Detail Item
+GET {{baseUrl}}/detail
+    ?id_item=1
+
+
+### Delete Item
+DELETE {{baseUrl}}/delete/4
